@@ -1,0 +1,7 @@
+1. A constructor in Java is a special method that is used to initialize objects.
+2.Every time an object is created using the new() keyword, at least one constructor is called.
+3.Constructors must have the same name as the class within which it is defined it is not necessary for the method in Java.
+4. Constructors do not return any type while method(s) have the return type or void if does not return any value.
+5.Constructors are called only once at the time of Object creation while method(s) can be called any number of times.
+6.A constructor in Java can not be abstract, final, static, or Synchronized.
+7.Access modifiers can be used in constructor declaration to control its access i.e which other class can call the constructor.
