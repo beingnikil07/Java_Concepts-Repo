@@ -1,0 +1,29 @@
+Association is a concept that establishes a relationship between two separate classes through their objects. An association relationship can be of 4 different types- 
+
+one-to-one association
+one-to-many association
+many-to-one association
+many-to-many association
+ 
+Association is one of the building blocks of Object-Oriented Programming. Association describes the relationship between the two classes.
+
+To understand the different types of relationships, let’s consider a few real-life examples.
+
+One-to-one association: A person can have only one Aadhar Card. This defines the one-to-one relationship between the two entities.
+One-to-many association: A teacher explains the concept to many students in a classroom. This defines one-to-many associations between the teacher and the students.
+ 
+Many-to-one association: In an office, many different types of departments are related to an employee. For example, an employee has to report to the financing department for his salary, and he has to report to his manager about the report, the employee is related to the head for any reviews in his project. This is an example of many-to-one associations, where there are many departments related to the employee.
+Many-to-many association: In a cinema hall, the projected movie is meant for a wider audience and not just for one person. There are many actors in the film portraying their messages to many people through the movie. This is an example of many-to-many associations, where many different actors are related to many other people.
+
+
+
+
+
+
+                                            //Aggregation
+
+Aggregation is a particular type of Association. It represents the has-a relationship between the two classes. The relationship between the two classes is entirely independent, which means if one of the objects of the class gets deleted, it won’t affect the other.
+
+The Aggregate class contains a reference to one more class and is said to be responsible for the class. Each class that is referred to is viewed as a piece of the Aggregate class.
+
+Let’s take an easy example. A student attends a school. After the completion of his studies, he can quickly leave school. That means the end of the student object would not destroy the School object. We can say that the Student ‘has-a’ relationship with the school.
