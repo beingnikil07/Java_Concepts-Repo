@@ -1,0 +1,12 @@
+1.There can be only abstract methods(methods without body) in the Java interface.
+2.It is used to achieve abstraction and multiple inheritance in Java. 
+3. Java Interface also represents the IS-A relationship.
+4.Interfaces cannot have constructors
+5.A Java library example is Comparator Interface. If a class implements this interface, then it can be used to sort a collection.
+6.we cannot create objects of interfaces.
+7.In Interface only one specifier is used- Public.
+8.A class can implement more than one interface.
+9.An interface can extend to another interface or interface (more than one interface).
+10.All the methods are public and abstract. And all the fields are public, static, and final.
+11.It is used to achieve loose coupling.
+12.Inside the interface main method is not allowed.

@@ -1,0 +1,2 @@
+1.Default methods in java interfaces 
+2.private and static methods in java interfaces 

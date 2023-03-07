@@ -1,0 +1,7 @@
+We can declare an interface in another interface or class. Such an interface is termed as a nested interface.
+
+The following are the rules governing a nested interface.
+
+A nested interface declared within an interface must be public.
+A nested interface declared within a class can have any access modifier.
+A nested interface is by default static.
