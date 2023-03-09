@@ -1,0 +1,9 @@
+Java inner class or nested class is a class that is declared inside
+the class or interface.
+
+
+//Types of inner Classes
+1.Nested inner class
+2.Local inner class
+3.Anonymous inner class
+4.Static inner class
