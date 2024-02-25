@@ -14,11 +14,13 @@ public class ConnectDb {
         String username = "root";
         String password = "kammo@123";
 
-        // Establish the connection
+        
         try {
+            // Establish the connection
             con = DriverManager.getConnection(url, username, password);
             System.out.println("Connected to database successfully");
             System.out.println(con);  //it will print the connection id
+            //performing operations
             ps=con.prepareStatement("insert into students values(001,'nikhil','dhampur')");            
             int i=ps.executeUpdate();
             if(i>=1){
