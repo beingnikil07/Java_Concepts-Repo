@@ -40,6 +40,7 @@ public class TransactionTut {
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
+
         }
 
     }
